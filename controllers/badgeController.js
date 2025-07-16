@@ -1,6 +1,6 @@
 const QRcode = require("qrcode");
 const { validateInput } = require("../utils/validateInput");
-const Badge = require("../models/badge");
+const Badge = require("../models/Badge");
 
 const generateBadge = async (req, res) => {
   const { name, email, linkedin, github } = req.body;
